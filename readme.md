@@ -6,7 +6,7 @@ para instalar bytecheck para nodejs se puede hacer de la siguiente manera: `npm 
 const {b,email} = require("bytecheck");
 
 const validator = b.String([
-	email("STRING A MOSTRAR SI NO ES UN EMAIL");
+	email("STRING A MOSTRAR SI NO ES UN EMAIL")
 ]);
 
 const resultado = validator.validate(email);
@@ -16,6 +16,7 @@ resultado.error.details.forEach((e)=>console.error(e));
 	console.log("es un email");
 }
 ```
+## Validar email
 Para validar un correo electrónico utilizando ByteCheck, sigue estos pasos:
 
 1. Importa las variables `b` y `email` de la biblioteca ByteCheck en tu archivo:
@@ -50,3 +51,7 @@ if (resultado.error) {
 Ten en cuenta que puedes personalizar el mensaje de error que se muestra en caso de que la validación falle, reemplazando el mensaje de error en el paso 2.
 
 Esta descripción proporciona una guía paso a paso para validar un correo electrónico utilizando ByteCheck y explica cómo manejar los errores en caso de que la validación falle.
+## Validar numeros
+
+## Funciones de `b`
+## Funciones de Validacion
