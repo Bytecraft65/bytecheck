@@ -2,6 +2,7 @@
 Bytecheck es una biblioteca que ofrece funciones para validar una amplia variedad de tipos de datos, incluyendo cadenas de texto, números, matrices y objetos. Esta biblioteca te permite establecer límites mínimos y máximos de caracteres para validar cadenas de texto, así como validar números de teléfono, direcciones URL y direcciones de correo electrónico. Además, para los números, también puedes establecer límites mínimo y máximo. Ten en cuenta que, en esta versión beta o de prueba, la validación de matrices y objetos aún no está implementada, pero se está trabajando en ello para futuras actualizaciones.
 
 para instalar bytecheck para nodejs se puede hacer de la siguiente manera: `npm i bytecheck`. 
+para instalar el script de bytecheck [clic aqui](https://github.com/Bytecraft65/bytecheck/blob/main/src/0_10_0/bytecheck.js);
 ```javascript
 const {b,date} = require("bytecheck");
 
