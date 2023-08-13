@@ -87,7 +87,7 @@ if (resultado.error) {
 El uso de `b.Number()` es muy parecido a `b.String()`, pero cuenta con cinco funciones específicas: `phone()`, `min()` y `max()`,`less()` y `greater()`. |
 ## Funciones de Validacion
 | Nombre | Descripcion | se usa en  |
-|-|-|
+|-|-|-|
 | minLength(minimo,error) | La función `minLength()` se utiliza exclusivamente con `b.String()` y permite establecer una longitud mínima para una cadena de texto. El primer parámetro que se debe proporcionar es el valor mínimo de caracteres permitidos para el texto, seguido de un mensaje de error que se mostrará si la cadena de texto no cumple con la cantidad mínima de caracteres especificada. | `b.String()` |
 | maxLength | La función `maxLength()` es similar a `minLength()`, pero se utiliza para establecer una longitud máxima para una cadena de texto. La diferencia principal es que `maxLength()` se utiliza para limitar la cantidad máxima de caracteres permitidos en el texto. Al igual que `minLength()`, se deben proporcionar dos parámetros: el primero es un número que representa la cantidad máxima de caracteres permitidos, y el segundo es un mensaje de error que se mostrará si el texto supera la cantidad máxima especificada. | `b.String()` |
 | email | La función `email()` se utiliza para verificar si un texto es una dirección de correo electrónico válida. El único argumento que se debe proporcionar es el mensaje que se mostrará si el texto no cumple con el formato de una dirección de correo electrónico. | `b.String()` |
