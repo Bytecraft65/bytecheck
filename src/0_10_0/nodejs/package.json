@@ -1,0 +1,21 @@
+{
+  "name": "bytecheck",
+  "version": "0.10.0",
+  "description": "Puedes validad String, Numeros, Objectos y Arrays con bytecheck",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "validar",
+    "string",
+    "validate",
+    "numeros",
+    "objetos",
+    "object",
+    "Number",
+    "Array"
+  ],
+  "author": "Bytecraft",
+  "license": "ISC"
+}
