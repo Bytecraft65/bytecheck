@@ -15,7 +15,7 @@ const resultado = validator.validate("17/01/22");
 if(resultado.error){
 resultado.error.details.forEach((e)=>console.error(e));  
 }else{
-	console.log("es un email");
+	console.log("es na fecha valida");
 }
 ```
 Es importante tener en cuenta que los ejemplos proporcionados son para utilizar ByteCheck con Node.js. Sin embargo, si deseas utilizar ByteCheck en tu página web, simplemente puedes agregar el script y tendrás acceso a todas las funcionalidades sin necesidad de utilizar `require("bytecheck")`.
